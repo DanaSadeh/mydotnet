@@ -142,6 +142,140 @@ namespace Course3_hw
     }
 
         
+
+On Thu, Mar 14, 2019, 15:40 דנה שדה <dana-sa@ayalon-ins.co.il> wrote:
+פרמידה
+
+ 
+
+ 
+
+{
+
+   int i,j,n;
+
+  
+
+            Console.Write("\n\n");
+
+    Console.Write("Display the pattern like pyramid containing odd number of asterisks:\n");
+
+    Console.Write("----------------------------------------------------------------------");
+
+    Console.Write("\n\n");  
+
+   
+
+   Console.Write("Input number of rows for this pattern :");
+
+   n= Convert.ToInt32(Console.ReadLine());   
+
+   for(i=0;i<n;i++)
+
+   {
+
+     for(j=1;j<=n-i;j++)
+
+     Console.Write(" ");
+
+     for(j=1;j<=2*i-1;j++)
+
+       Console.Write("*");
+
+     Console.Write("\n");
+
+   }
+
+}
+
+}
+
+ 
+
+ 
+
+ 
+
+חישוב שעות דקות וכו'
+
+            int secondsTotal=Convert.ToInt32(Console.ReadLine());
+
+                       
+
+ 
+
+                        if (secondsTotal>=0)
+
+                        {
+
+                                    Console.WriteLine( secondsTotal/86400 + " days " + (secondsTotal/3600) %60+ " hours " + (secondsTotal/60)%60 + " minuets " + secondsTotal%60 + " seconds ");
+
+                        }
+
+                       
+
+                        else
+
+                        {
+
+                        Console.WriteLine("value is not correct");
+
+                        }
+
+ 
+
+ 
+
+ 
+
+1234567
+
+ 
+
+{
+
+        int i, j, k;
+
+
+        for (i = 1; i <= 7; i++)
+
+        {
+
+            for (j = 1; j <= i; ++j)
+
+                Console.Write(j);
+
+
+            for (k = 7 - i; k >= 1; k--)
+
+                Console.Write("*");
+
+
+            Console.Write("\n");
+
+        }
+
+
+        Console.ReadLine();
+
+
+    }
+
+}
+
+ 
+דנה שדה, QA EXPERT 
+
+אגף מערכות מידע 	 
+ 	 
+טלפון: 0722229337 
+
+| נייד: 0504433442 
+
+דוא"ל: 	dana-sa@ayalon-ins.co.il
+Link 
+Link
+
    
 
 
